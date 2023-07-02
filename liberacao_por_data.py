@@ -1,7 +1,4 @@
-dia,mes,ano = input().split("/")
-dia = int(dia)
-mes = int(mes)
-ano = int(ano)
+dia,mes,ano = map(int,input().split("/"))
 
 print('{:02d}/{:02d}/{}, estas informações estão corretas, se sim, escreva "Sim",se não escreva "Não" \nOs dados estão corretos : '.format(dia,mes,ano))
 res = str(input())
